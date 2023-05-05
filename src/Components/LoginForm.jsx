@@ -14,7 +14,7 @@ const LoginForm = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    const from = location.state?.from.pathname || '/';
+    const from = location.state?.from.pathname || '/cheifs/:id';
 
     const HandleLogin = (event) => {
         event.preventDefault();
@@ -46,6 +46,7 @@ const LoginForm = () => {
                 const loggerUser = result.user
                 // console.log(loggerUser);
                 toast.success("User Sign up successfully by google");
+                navigate(from, { replace: true });
             })
             .catch(error => {
                 const ErrorMessage = error.message;
@@ -59,6 +60,7 @@ const LoginForm = () => {
                 const loggedUser = result.user;
                 // console.log(loggedUser);
                 toast.success("User Sign up successfully by github");
+                navigate(from, { replace: true });
             })
             .catch(error => {
                 const ErrorMessage = error.message;
