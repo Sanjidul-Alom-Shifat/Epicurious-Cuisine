@@ -1,0 +1,33 @@
+// Main work of assignment
+
+ >  1. Make sure your design is unique.
+ >  2. Give your website a name. The name should appear on the website and be displayed on the website's title.
+ >  3. Your website should have a navbar.
+ >  4. reate a reasonable and meaningful footer.
+ >  5. When a user clicks on the login button, they will be redirected to the login page having the following.
+ >  6. The Registration page will have the Email/Password form having the following fields:
+ >  7. On the Registration page, display errors when:
+ >  8. On the Homepage: There will be a banner section. You can make it a reasonable banner. That be text on one side, and picture in another side. Or it could be text with background pictures. It could be a slider or a carousel. You can make it the way you want.
+ >  9. The home page will have a Chef section with at least six cards. Each card will have the following information:
+ >  10. Add at least two extra sections on the home page. Make sure the sections are meaningful for the website you are building.
+ >  11.
+ >  12.
+ >  13. Show a spinner when the data is in a loading state
+ >  14. Create a 404 page. Add a picture on the 404 page.
+ >  15. Use the Environment variable to hide the Firebase config keys.
+ >  16. Add "active route" to indicate the route which you are visiting.
+
+
+
+
+ // Bonus work of assignment
+ 
+ >  1. Minimum 12 meaningful git commits on the client-side repository and minimum of 5 meaningful commits on the server-side repository.
+ >  3.
+ >  2. Make your website home page mobile & desktop responsive (tablet responsive is optional)
+ >  4. Create a blogs page route where you will have to answer the following questions.
+ >  5. The Chef Recipe page will be a private/protected page. If you reload the protected/private route (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route.
+ >  6. Apply lazy load to the chef picture either on the banner of Chef Recipes or on the chef pictures of the six cards on the Homepage.
+ >  7. FUN: The blog page, Create a heading and add an icon/ button. When you click on that button, it will create a pdf and will be downloaded ( This will give you some fun. Try out this after completing all of your tasks. Hint: Explore react-to-pdf package). Your pdf should contain some information about the blog page.
+ >  8. Make sure your site looks reasonable. The design and color selection is meaningful.
+ >  9. Clean and organized Code (folder structure). Organize components with meaningful names, and add comments when needed.
